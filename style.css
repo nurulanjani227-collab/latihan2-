@@ -10,3 +10,19 @@
     body {
        background-color: #ccdddd;
     }
+    
+    /* mengubah div menjadi tampilan kartu */
+    div {
+       background-color: #9FE99E;
+       width: 280px;
+       margin: 20px auto;
+       padding: 20px;
+       border-radius: 15px;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+       text-align: center;
+    }
+    
+    div img {
+       border-radius: 50%;
+       border: 3px solid #8AABCF;
+    }
