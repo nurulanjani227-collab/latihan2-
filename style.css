@@ -13,7 +13,7 @@
     
     /* mengubah div menjadi tampilan kartu */
     div {
-       background-color: #9FE99E;
+       background-color: #A7ABCC;
        width: 280px;
        margin: 20px auto;
        padding: 20px;
@@ -24,5 +24,21 @@
     
     div img {
        border-radius: 50%;
-       border: 3px solid #8AABCF;
+       border: 3px solid #E99EDD;
+    }
+    
+    .navigasi {
+       background-color: #889DCE;
+       padding: 10px;
+       text-align: center;
+       border-radius: 10px;
+    }
+    
+    .navigasi a {
+       text-decoration: none;
+    }
+    
+    .navigasi .aktif {
+       font-weight: bold;
+       color: #85BB2E;
     }
