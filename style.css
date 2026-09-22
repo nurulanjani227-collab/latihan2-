@@ -1,6 +1,7 @@
     h1 {
        background-color: #99ADDE;
        color: #fff;
+      text-align: center;
     }
     
     a {
@@ -45,6 +46,7 @@
     
     div.kartu-kontak {
        background-color: #ffffff;
+       text-align: center;
        width: 80%;
        /*rata tengah horizontal*/
        margin: 0 auto;
