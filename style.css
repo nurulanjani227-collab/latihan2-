@@ -1,5 +1,5 @@
     h1 {
-       background-color: #99ADDE;
+       background-color: #FDC9FF;
        color: #fff;
       text-align: center;
     }
@@ -14,12 +14,12 @@
     
     /* mengubah div menjadi tampilan kartu */
     div.kartu-profil {
-       background-color: #DCA6D6;
+       background-color: #EBBAE8;
        width: 280px;
        margin: 20px auto;
        padding: 20px;
        border-radius: 15px;
-       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+       box-shadow: 0 4px 8px rgba(164,  165, 248,1);
        text-align: center;
     }
     
@@ -29,7 +29,7 @@
     }
     
     .navigasi {
-       background-color: #889DCE;
+       background-color: #FDC9FF;
        padding: 10px;
        text-align: center;
        border-radius: 10px;
@@ -41,11 +41,11 @@
     
     .navigasi .aktif {
        font-weight: bold;
-       color: #C59BC9;
+       color: #2DA8E4;
     }
     
     div.kartu-kontak {
-       background-color: #ffffff;
+       background-color: #FFD6F9;
        text-align: center;
        width: 80%;
        /*rata tengah horizontal*/
