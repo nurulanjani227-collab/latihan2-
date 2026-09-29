@@ -1,7 +1,7 @@
     h1 {
        background-color: #FDC9FF;
        color: #fff;
-      text-align: center;
+       text-align: center;
     }
     
     a {
@@ -19,7 +19,7 @@
        margin: 20px auto;
        padding: 20px;
        border-radius: 15px;
-       box-shadow: 0 4px 8px rgba(164,  165, 248,1);
+       box-shadow: 0 4px 8px rgba(164, 165, 248, 1);
        text-align: center;
     }
     
@@ -73,4 +73,31 @@
     
     .github {
        background-color: #dddddd;
+    }
+    
+    .galeri-container {
+       text-align: center;
+       max-width: 100%;
+       margin: 0 auto;
+    }
+    
+    /* item galeri foto */
+    .galeri-item {
+       width: 50%;
+       max-width: 180px;
+       display: inline-block;
+       margin: 10px;
+       border-radius: 8px;
+       overflow: hidden;
+       background-color: #BAE8FF;
+    }
+    
+    .galeri-item img {
+       width: 100%;
+       height: 150px;
+       object-fit: cover;
+    }
+    .galeri-item p {
+       padding: 0px;
+       line-height: 0.5;
     }
