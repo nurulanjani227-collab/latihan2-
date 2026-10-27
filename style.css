@@ -14,7 +14,7 @@
     
     /* mengubah div menjadi tampilan kartu */
     div.kartu-profil {
-       background-color: #EBBAE8;
+       background-color: #FFD8FF;
        width: 280px;
        margin: 20px auto;
        padding: 20px;
@@ -25,7 +25,7 @@
     
     div.kartu-profil img {
        border-radius: 50%;
-       border: 3px solid #B3E9F2;
+       border: 3px solid #98F0FF;
     }
     
     .navigasi {
