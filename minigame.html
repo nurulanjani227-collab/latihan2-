@@ -10,22 +10,27 @@
 
 <body>
   <nav class="navigasi">
-  
-  <a href="index.html">beranda</a> |
-  <a href="kontak.html">kontak </a>
-  <a href="galeri.html">galeri</a> |
-  <a href="minigame.html" class="aktif">mini game</a> |
+    
+    <a href="index.html">beranda</a> |
+    <a href="kontak.html">kontak </a>
+    <a href="galeri.html">galeri</a> |
+    <a href="minigame.html" class="aktif">mini game</a> |
   </nav>
   
   <h1>mini game</h1>
   
   <!-- area game -->
   <div class="kartu-profil">
-    <img id="foto-kucing"src="gambar/kucing kurus.jpg" alt="" />
+    <img id="foto-kucing" src="gambar/kucing kurus.jpg" alt="" />
     <h2 id="status-kucing">kucing kurus😺</h2>
     <p>porsi makan: <b id="teks-porsi">0</b></p>
     
     <button onclick="beriMakan()">beri makan(+1)</button>
+    <button onclick="ajakmain()">ayo main (-1)</button>
+    
+    <p>
+      <button onclick="reset()">reset permainan</button>
+    </p>
   </div>
   
   <!-- hubungkan ke file javascript terpisah -->
