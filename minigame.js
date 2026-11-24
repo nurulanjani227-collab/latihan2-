@@ -3,9 +3,15 @@
 let porsi = 0
 
 function beriMakan() {
-  // tambah porsi makan +1
-  porsi = porsi + 1
+// 1. ambil teks dari input angka kotak teks
+let teksInput = document. getElementById('input-makanan').value 
+
+// 2. ubah string menjadi angka 
+let jumlahmakanan = Number(teksInput)
   
+// 3. operasi penjumlahan angka  
+porsi = porsi + jumlahmakanan
+
   updatetampilan()
 }
 
@@ -22,7 +28,7 @@ updatetampilan()
 function reset() {
 porsi = 0
 
-updatetampilan()
+updatetampilan() 
 }
 
 //fungsi untuk memperbarui tampilan html
