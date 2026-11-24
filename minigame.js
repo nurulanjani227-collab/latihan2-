@@ -2,7 +2,16 @@
 // dengan nilai awal nol (0))
 let porsi = 0
 
+// siapkan aset suara di variabel 
+let suaramakan = new Audio ("minigame/makanmakan.mp3")
+let suaramain = new Audio ("minigame/main.mp3")
+let suarareset = new Audio ("minigame/reset.mp3")
+
 function beriMakan() {
+  // efek suara makan
+  suaramakan. currentTime = 0
+  suaramakan. play()
+  
 // 1. ambil teks dari input angka kotak teks
 let teksInput = document. getElementById('input-makanan').value 
 
@@ -17,6 +26,10 @@ porsi = porsi + jumlahmakanan
 
 // fungsi mengajak main kucing (porsi di kurangi 1)
 function ajakmain() {
+  // efek suara main
+  suaramain. currentTime = 0
+  suaramain. play()
+  
 // mengurangi porsi 1 tapi cegah jangan sampe negatif 
 if (porsi > 0) {
   porsi = porsi - 1
@@ -26,33 +39,13 @@ updatetampilan()
 }
 
 function reset() {
+  // efek suara reset
+  suarareset. currentTime = 0
+  suarareset. play()
+  
 porsi = 0
 
 updatetampilan() 
 }
 
 //fungsi untuk memperbarui tampilan html
-function updatetampilan() {
-  // update angka porsi makan
-  document.getElementById('teks-porsi').innerText = porsi
-  
-  if (porsi >= 10) {
-    // ganti gambar kucing menjadi kucing gemuk
-    document.getElementById('foto-kucing').src = "gambar/kucing gemuk.jpg"
-    
-    // menampilkan tulisan kucing gemuk
-    document.getElementById('status-kucing').innerText = "kucing gemuk😻💸"
-  } else if (porsi >= 5) {
-    // ganti gambar kucing menjadi kucing gemuk
-    document.getElementById('foto-kucing').src = "gambar/kucing sedang.jpg"
-    
-    // menampilkan tulisan kucing gemuk
-    document.getElementById('status-kucing').innerText = "kucing sedang😼🤏🏻"
-  } else {
-        // ganti gambar kucing menjadi kucing kurus
-    document.getElementById('foto-kucing').src = "gambar/kucing kurus.jpg"
-    
-    // menampilkan tulisan kucing kurus
-    document.getElementById('status-kucing').innerText = "kucing kurus 🤏🏻"
-  }
-}
